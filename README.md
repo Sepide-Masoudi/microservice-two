@@ -5,11 +5,11 @@ This service is called by mocriservice one to create a response that contains li
 
 ## Project Technology Stack:
 
-[**H2**](https://www.h2database.com/html/main.html): embedded database
-[**Zipkin**](https://zipkin.io/pages/quickstart.html): tracing tool 
-[**Swagger**](https://swagger.io/tools/swagger-ui/): api document tool
-[**Eureka**](https://cloud.spring.io/spring-cloud-netflix/reference/html/): service discovery
-[**Spring cloud gateway**](https://spring.io/projects/spring-cloud-gateway): gateway
+-[**H2**](https://www.h2database.com/html/main.html): embedded database
+-[**Zipkin**](https://zipkin.io/pages/quickstart.html): tracing tool 
+-[**Swagger**](https://swagger.io/tools/swagger-ui/): api document tool
+-[**Eureka**](https://cloud.spring.io/spring-cloud-netflix/reference/html/): service discovery
+-[**Spring cloud gateway**](https://spring.io/projects/spring-cloud-gateway): gateway
 
 ## Archirecture
 
