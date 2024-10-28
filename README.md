@@ -23,6 +23,8 @@ For starting the program, open the project inside your IDE, go to the **src/main
 ### usefull links after running the programm:
 
 - http://localhost:8084/cities/healthCheck (health check service)
+- spring.application.name= countries-service
+- http://localhost:8084/h2-console
 - http://localhost:8084/swagger-ui/index.html (SWAGGER UI FOR CLIENT CALLS)
 - http://localhost:8084/actuator (SPRING ACTUATOR)
 - http://localhost:8761/ (Eureka server)
