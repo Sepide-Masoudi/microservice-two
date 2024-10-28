@@ -4,6 +4,9 @@ This is a sample microservice demonstrating how to create a simple microservice 
 
 ## Project Technology Stack:
 
+- **Java 17 (+)**
+- [**Spring boot**](https://spring.io/projects/spring-boot) : framework
+- [**Maven**](https://maven.apache.org/): build automation tool 
 - [**H2**](https://www.h2database.com/html/main.html): embedded database
 - [**Zipkin**](https://zipkin.io/pages/quickstart.html): tracing tool 
 - [**Swagger**](https://swagger.io/tools/swagger-ui/): api document tool
@@ -11,4 +14,18 @@ This is a sample microservice demonstrating how to create a simple microservice 
 - [**Spring cloud gateway**](https://spring.io/projects/spring-cloud-gateway): gateway
 
 ## Archirecture
+![Architecture Diagram](Microservice-Application-Arch.png)
+
+## Running
+
+For starting the program, open the project inside your IDE, go to the **src/main/java/MicroserviceTwoApplication.java** and run the class.
+
+### usefull links after running the programm:
+
+- http://localhost:8084/cities/healthCheck (health check service)
+- http://localhost:8084/swagger-ui/index.html (SWAGGER UI FOR CLIENT CALLS)
+- http://localhost:8084/actuator (SPRING ACTUATOR)
+- http://localhost:8761/ (Eureka server)
+- http://localhost:8084/api-docs (SWAGGER API DOCUMENT)
+  
 
